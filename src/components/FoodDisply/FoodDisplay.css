@@ -1,0 +1,41 @@
+.food-display{
+    margin-top: 30px;
+
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 30px;
+}
+.food-display-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .search-icon:hover {
+    transform: scale(1.1);
+  }
+  
